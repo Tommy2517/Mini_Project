@@ -1,0 +1,82 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url("https://www.rgo.ru/sites/default/files/node/32473/yuriy-ufimcev-fioletovyy-zakat-536530.jpg") fixed;
+    background-size: cover;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.main {
+    width: 99vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    background: rgba(51, 51, 51, 0.40);
+    width: 50%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+
+}
+h1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.users {
+
+    background: rgba(85, 85, 85, 0.70);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 40px;
+
+    box-sizing: border-box;
+    padding: 40px;
+}
+.user{
+    width: 45%;
+    min-width: 276px;
+    border: 1px solid gold;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    text-decoration: none;
+    color: silver;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+}
+div{
+    color: #afafaf;
+}
+
+.btn_index {
+    text-decoration: none;
+    color: silver;
+    border: 1px solid silver;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 16px;
+}
+.btn_index:hover{
+    border: 1px solid gold;
+
+    color: gold;
+}
